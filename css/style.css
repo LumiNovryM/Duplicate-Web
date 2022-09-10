@@ -233,3 +233,42 @@ body{
     border: none;
     font-size: 12px;
 }
+
+.contact{
+    width: 100%;
+    height: 250px;
+    background-color: #2f3640;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact p{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 13px;
+    line-height: 0;
+}
+
+.garis{
+    width: 390px;
+    height: 5px;
+    border-bottom: 2px solid white;
+    margin-bottom: 15px;
+}
+
+.contact button{
+    width: 100px;
+    height: 30px;
+    font-size: 11px;
+    border: 1px solid black;
+}
+
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: #dfe6e9;
+
+}
