@@ -65,7 +65,7 @@ body{
 
 .text-hero p:nth-child(3){
     font-size: 30px;
-    font-weight: bold;
+    font-weight: 100;
     line-height: normal;
 }
 
@@ -93,4 +93,54 @@ body{
     left: 50%;
     top: 100px;
     height: 450px;
+}
+
+.about{
+    width: 80%;
+    background-color: white;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    margin: -3% auto 20px;
+    position: relative;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    padding-right: 200px;
+}
+
+.about img{
+    height: 250px;
+    margin: 30px;
+}
+
+.text-about p:first-child{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 10px;
+}
+
+.text-about p:nth-child(2),
+.text-about p:nth-child(3){
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.btn-about-here{
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid black;
+    margin-right: 10px;
+    font-size: 10px;
+}
+
+.btn-about-download{
+    width: 100px;
+    height: 30px;
+    background-color: #2f3640;
+    font-size: 10px;
+    color: white;
+    border: none;
 }
